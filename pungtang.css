@@ -1,0 +1,39 @@
+﻿.title {
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	font-size: 40px;
+	background-color: dimgrey;
+	text-align: center;
+	display: inline-block;
+	margin-top: 200px;
+	margin-left: 480px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: border-radius 0.5s, padding-left 0.5s, padding-right 0.5s, margin-left 0.5s, background-color 1s;
+}
+
+.title:hover {
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 470px;
+	background-color: darkgrey;
+}
+
+.isi {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	background-color: dimgray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: border-radius 0.5s, background-color 1s;
+}
+
+.isi:hover {
+	border-radius: 40px;
+	background-color: darkgrey;
+}

@@ -1,0 +1,77 @@
+﻿.muka {
+	width: 200px;
+	margin-left: 556px;
+	border: solid;
+	border-color: dimgrey;
+	border-width: 10px;
+	display: inline-block;
+	transition: border-radius 0.5s, border-color 0.5s;
+}
+
+.muka:hover {
+	border-radius: 30px;
+	border-color: darkgrey;
+}
+
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	color: black;
+	background-color: dimgray;
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 280px;
+	margin-top: 10px;
+	transition: border-radius 1s, padding-right 0.5s, padding-left 0.5s, margin-left 0.5s, background-color 1s;
+}
+
+.title:hover {
+	border-radius: 30px;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin-left: 260px;
+	background-color: darkgrey;
+}
+
+.find {
+	background-color: dimgray;
+	color: black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 30px;
+	cursor: pointer;
+	display: block;
+	height: 50px;
+	width: 300px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 13px;
+	padding-bottom: 0px;
+	margin-left: 500px;
+	margin-top: 15px;
+	display: inline-block;
+	transition: border-radius 0.5s, padding-right 0.5s, padding-left 0.5s, margin-left 0.5s, background-color 0.5s;
+}
+
+.find:hover {
+	border-radius: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin-left: 480px;
+	background-color: darkgrey;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+	cursor: pointer
+}
